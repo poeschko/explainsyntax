@@ -1,3 +1,10 @@
+@font-face {
+   font-family: 'ElectroShackle';
+   font-style: normal;
+   font-weight: normal;
+   src: url('./fonts/ElectroShackle.otf') format('opentype');
+}
+
 .App {
   text-align: center;
 }
@@ -20,7 +27,14 @@
 
 .App-link {
   color: #61dafb;
+  font-family: ElectroShackle;
 }
+
+.logo {
+  font-family: ElectroShackle;
+  font-size: 66px;
+}
+
 
 @keyframes App-logo-spin {
   from {
